@@ -1,38 +1,29 @@
-.App {
+.appName {
+  font-size: 40px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.search-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.search-bar {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.location-box {
+  padding: 2rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.location {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.current-box {
+  text-align: center;
+  background-image: "cdn.weatherapi.com/weather/64x64/day/116.png";
 }
